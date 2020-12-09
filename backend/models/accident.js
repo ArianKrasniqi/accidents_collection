@@ -5,12 +5,8 @@ const accidentSchema = new Schema({
   description: {
     type: String
   },
-  date: {
+  datetime: {
     type: Date,
-    required: true
-  },
-  time: {
-    type: String,
     required: true
   },
   location: {
@@ -49,13 +45,13 @@ const accidentSchema = new Schema({
     type: Number
   },
   road_category: {
-    type: Number
+    type: String
   },
   speed_limit: {
     type: Number
   },
   weather: {
-    type: Number
+    type: String
   },
   visibility: {
     type: Number
