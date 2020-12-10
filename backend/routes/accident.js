@@ -13,4 +13,6 @@ router.get("/getAccidents", Accident.getAccidents);
 
 // router.delete("/deleteAccident", Accident.deleteSubCategory);
 
+router.get('/downloadCSV', Accident.downloadCSV);
+
 module.exports = router;

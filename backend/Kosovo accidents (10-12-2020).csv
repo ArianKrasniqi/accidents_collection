@@ -1,0 +1,19 @@
+"latitude","longitude","_id","description","humidity","visibility","wind_speed","weather","datetime","severity","vehicles_involved","people_involved","casualties","road_category","speed_limit"
+42.602635899999996,20.902977,"5fcbfb2b7cc8a49fd041728d","",,,,"","2020-12-05T21:26:56.313Z",,,,,"",
+42.641167,21.155458,"5fcbfca97cc8a49fd041728e","Aksident ne Prishte",70,10000,1,"Clear","2020-12-05T21:31:45.843Z",2,5,10,0,"A",100
+42.64612,21.155307,"5fcbfcd07cc8a49fd041728f","Aksident ne Prishte",70,10000,1,"Clear","2020-12-05T21:31:45.843Z",2,5,10,0,"A",100
+42.650806,21.140663,"5fcbfcef7cc8a49fd0417290","Aksident ne Prishte",70,10000,1,"Clear","2020-12-05T21:31:45.843Z",2,5,10,0,"A",100
+42.65228,21.14646,"5fd14a69438277c984511874","Aksident tek Rrethi ne Prishtine",87,10000,2.6,"Clouds","2020-12-09T21:54:03.706Z",3,2,4,1,"B",40
+42.6523,21.14648,"5fd14b03438277c984511875","Aksident tek rrethi ne Prishtine",87,10000,2.6,"Clouds","2020-12-09T21:54:03.706Z",2,4,5,0,"B",40
+42.65233,22.14648,"5fd14b59438277c984511876","Aksident ne rreth ne Prishtine",89,10000,0.45,"Clouds","2020-12-09T21:54:03.706Z",2,2,2,0,"B",40
+42.6528,21.14633,"5fd14bc4438277c984511877","Aksident ne rreth ne Prishtine - Hyrja veriore",87,10000,2.6,"Clouds","2020-12-09T21:54:03.706Z",3,8,3,0,"B",40
+42.65292,21.14608,"5fd14c18438277c984511878","Aksident ne rreth ne Prishtine - Dalja ne Kalabri",81,10000,2.01,"Clouds","2020-12-09T21:54:03.706Z",2,2,5,0,"B",40
+42.65286,21.14542,"5fd14c72438277c984511879","Aksident ne rreth ne Prishtine - Dalja Veternik",81,10000,2.01,"Clouds","2020-12-09T21:54:03.706Z",4,1,3,1,"B",40
+42.65519,21.15584,"5fd14d17438277c98451187a","Aksident ne rreth ne Prishtine - Tek Such Caffe",81,10000,2.02,"Clouds","2020-12-09T21:54:03.706Z",1,2,2,0,"B",40
+42.65508,21.15579,"5fd14d4e438277c98451187b","Aksident ne rreth ne Prishtine - Tek Such Caffe",81,10000,2.02,"Clouds","2020-12-09T21:54:03.706Z",2,2,4,0,"B",40
+42.65576,21.15848,"5fd14ed8438277c98451187c","Aksident ne rreth ne Prishtine - Afer Katedrales",81,10000,2.02,"Clouds","2020-12-09T21:54:03.706Z",1,3,3,0,"B",40
+42.65526,21.16234,"5fd14f0e438277c98451187d","Aksident ne rreth ne Prishtine - Tek Instituti Albanologjik",81,10000,2.02,"Clouds","2020-12-09T21:54:03.706Z",1,2,3,0,"B",40
+42.65917,21.16462,"5fd14f72438277c98451187e","Aksident ne rreth ne Prishtine - Tek Instituti Albanologjik",81,10000,2.02,"Clouds","2020-12-09T21:54:03.706Z",1,2,3,0,"B",40
+42.66539,21.1651,"5fd14fc8438277c98451187f","Aksident ne rreth ne Prishtine - Rruga Agim Ramadani",81,10000,2.04,"Clouds","2020-12-09T21:54:03.706Z",2,3,5,0,"B",40
+42.66721,21.1642,"5fd14fff438277c984511880","Aksident ne rreth ne Prishtine - Rruga Agim Ramadani",81,10000,2.01,"Clouds","2020-12-09T21:54:03.706Z",2,3,5,0,"B",40
+42.66556,21.16059,"5fd15040438277c984511881","Aksident ne rreth ne Prishtine - Tek Qafa",81,10000,2.01,"Clouds","2020-12-09T21:54:03.706Z",3,2,2,0,"B",40
