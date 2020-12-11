@@ -64,6 +64,43 @@ exports.downloadCSV = async (req, res) => {
     fs.unlink(csvTitle);
   }
   catch (error) {
+    return res.status(404).json(error)
+  }
+}
 
+exports.accidentsJSON = async (req, res) => {
+  try {
+    const accidents = await Accident.find();
+
+    const formatedAccidents = accidents.map(acc => {
+      const [longitude, latitude] = acc.location.coordinates;
+      const {
+        _id, description, humidity, visibility, wind_speed, weather, datetime, severity,
+        vehicles_involved, people_involved, casualties, road_category, speed_limit
+      } = acc;
+
+      return {
+        latitude, longitude, _id, description, humidity, visibility,
+        wind_speed, weather, datetime, severity, vehicles_involved,
+        people_involved, casualties, road_category, speed_limit
+      }
+    });
+
+    const fields = Object.keys(formatedAccidents[0]);
+    const formatedFields = fields.map(field => {
+      return {name: field, format: '', type: 'real'}
+    })
+
+    const rows = formatedAccidents.map(formatedAccident => {
+      return Object.values(formatedAccident)
+    })
+    
+    return res.status(200).json({
+      fields: formatedFields,
+      rows: rows
+    });
+  }
+  catch (error) {
+    return res.status(404).json(error)
   }
 }

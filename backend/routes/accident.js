@@ -15,4 +15,6 @@ router.get("/getAccidents", Accident.getAccidents);
 
 router.get('/downloadCSV', Accident.downloadCSV);
 
+router.get('/accidentsJSON', Accident.accidentsJSON);
+
 module.exports = router;
